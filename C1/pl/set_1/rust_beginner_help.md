@@ -6,11 +6,12 @@
 Aby rozpocząć pracę z Rustem, musisz go zainstalować. Najłatwiejszym sposobem jest użycie `rustup`:
 
 1. Przejdź na stronę [https://rust-lang.org](https://www.rust-lang.org/) i kliknij "Get Started".
-2. Skopiuj polecenie instalacyjne i uruchom je w terminalu:
-   ```bash
-   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-   ```
-3. Postępuj zgodnie z instrukcjami wyświetlanymi w terminalu.
+2. Jeśli system operacyjny, z którego korzystasz to:
+    - Windows
+      - Pobierz instalator Rustup z [https://win.rustup.rs/x86_64](https://win.rustup.rs/x86_64)
+    - MacOS lub Linux
+      - Uruchom następujące polecenie w terminalu: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+3. Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie by ukończyć instalację.
 
 Po zakończeniu instalacji możesz sprawdzić, czy wszystko działa, wpisując:
 ```bash
@@ -163,11 +164,12 @@ loop {
 Przykład:
 ```rust
 loop {
-    println!("Wprowadź liczbę:");
-    let mut guess = String::new();
-    io::stdin().read_line(&mut guess).expect("Błąd wczytywania");
+    let mut input = String::new();
 
-    let guess: u32 = guess.trim().parse().expect("Proszę podać liczbę");
+    print!("Wprowadź liczbę: ");
+    io::stdin().read_line(&mut input).expect("Błąd wczytywania");
+
+    let guess: u32 = input.trim().parse().expect("Proszę podać liczbę");
 
     if guess < secret_number {
         println!("Za mało!");
