@@ -105,7 +105,7 @@ struct LogMessage {
 
 ## Exercise 3: Simple HTTP serwer using `hyper` lub `axum`
 
-### 3.1. Instalacja `hyper` lub `axum`
+### 3.1. Installing `hyper` or `axum`
 
 Add `hyper` or `axum` to your project in `Cargo.toml`:
 

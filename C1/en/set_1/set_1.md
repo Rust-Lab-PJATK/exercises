@@ -48,7 +48,7 @@ Result: 212 F
 
 Create a game, where computer picks a random number from 1 to 100, and the user has to guess it.
 
-### Wymagania
+### Requirements
 
 - Your program should inform the user whether the given number is greater or lower than the one picked by the app
 - Use the `rand` crate to generate a random value
@@ -59,8 +59,8 @@ Create a game, where computer picks a random number from 1 to 100, and the user 
 ```
 Guess a number (1-100): 50 
 It's greater than that! 
-Zgadnij liczbę (1-100): 75 
+Guess a number (1-100): 75 
 It's lower than that! 
-Zgadnij liczbę (1-100): 62 
+Guess a number (1-100): 62 
 Correct!
 ```

@@ -99,7 +99,7 @@ fn add(a: i32, b: i32) -> i32 {
 
 ## Exercise 2: Temperature Converter
 
-### 2.1. Tworzenie Funkcji
+### 2.1. Creating functions
 
 Function in rust have a very simple syntax:
 

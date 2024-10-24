@@ -135,7 +135,7 @@ let block = allocator.alloc(128).expect("Failed to allocate memory");
 
 ---
 
-## Zadanie 3: Simple database powered by `B-Tree` and `serde`
+## Exercise 3: Simple database powered by `B-Tree` and `serde`
 
 ### 3.1. What's a `BTreeMap`?
 
