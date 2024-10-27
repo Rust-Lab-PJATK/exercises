@@ -105,7 +105,7 @@ Dodaj `hyper` lub `axum` do swojego projektu w `Cargo.toml`:
 ```toml
 [dependencies]
 axum = "0.6"
-tokio = { version = "1", features = ["full"] }
+tokio = { version = "1", features = ["full" }
 ```
 
 ### 3.2. Tworzenie podstawowego serwera z `axum`
