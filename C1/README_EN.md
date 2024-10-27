@@ -19,7 +19,7 @@ This directory contains exercise sets and supporting materials for learning Rust
 - **set_3.md** requires an understanding of advanced concepts like `async executor`s or custom memory management systems.
 - **rust_advanced_help.md**: explains working with `Future`, `Waker`, `Poll`, memory management, as well as data serialization and deserialization using `serde`.
 
-## Jak korzystać z materiałów?
+## How to use the materials?
 
 1. **Start with `set_X.md` file** (where X means proficiency level, eg. `1`, `2` or `3`) and read the task descriptions.
 2. Try to do these exercises on your own. If you're stuck, take a look at `rust_X_help.md`.
