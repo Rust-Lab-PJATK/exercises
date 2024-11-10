@@ -13,8 +13,6 @@ In Rust, every value has its owner, and when the owner goes out of scope, the va
 
 ## Borrowing And References
 
-Aby uzyskać dostęp do wartości bez przeniesienia własności, użyj referencji (`&`). Dzięki temu możesz pożyczyć wartość na chwilę bez przejmowania jej własności.
-
 In order to gain access to a value without changing its ownership, use a reference. It allows you to borrow the value without transferring its ownership to the borrower.
 
 ### Hints
@@ -25,8 +23,6 @@ In order to gain access to a value without changing its ownership, use a referen
 ---
 
 ## Transferring Ownership And Functions
-
-Rust przenosi własność wartości, kiedy przekazujesz je do funkcji, chyba że używasz referencji.
 
 When a value is passed to a function, its ownership gets transferred to the argument, unless you use a reference.
 

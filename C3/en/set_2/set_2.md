@@ -31,6 +31,5 @@ Create a `process_data` function that accepts a reference to a `str` and uses `C
 ### Requirements
 
 - Use `Cow` to avoid copying data when it's not necessary to do so
-- Funkcja powinna sprawdzić, czy tekst wymaga modyfikacji i odpowiednio utworzyć kopię lub użyć oryginału.
 - Your function should check if the text needs to be changed and either create a copy or use the original
 - Use `to_mut` to obtain a mutable reference if change is needed
